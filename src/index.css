@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Protest+Strike&family=Roboto:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: Outfit;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active hr {
+    @apply block
+}
+
+::-webkit-scrollbar{
+    @apply hidden
+}
+
+
+@media (max-width:740px){
+    .active p{
+        @apply text-white bg-primary
+    }
+}
